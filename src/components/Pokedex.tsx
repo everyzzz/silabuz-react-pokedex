@@ -1,4 +1,3 @@
-import React from 'react';
 import PokedexScreen from './PokedexScreen';
 import PokemonForm from './PokemonForm';
 import { useState, useEffect } from 'react';
@@ -16,7 +15,6 @@ const Pokedex = () => {
 	const [ pokemon, setPokemon ] =  useState<PokemonType | null>(null);
 	const randomId = Math.floor(Math.random() * 806 + 1);
 	const [pokemonID, setPokemonId] = useState<number | string>(randomId);
-
 
   useEffect(() => {
 
@@ -143,7 +141,5 @@ return (
 // }
 
 
-// Creamos un número aleatorio entre el 1 y el 807
-const RandomId = Math.floor(Math.random() * 806 + 1)
 
 export default Pokedex;
