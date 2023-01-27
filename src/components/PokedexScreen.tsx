@@ -1,4 +1,3 @@
-import React from "react";
 import ErrorPokemon from "../img/error.gif";
 import LoadingPokemon from "../img/carga.gif";
 import { PokemonType } from "../interface/Pokemon";
@@ -55,15 +54,3 @@ const PokedexScreen = ({
 };
 
 export default PokedexScreen;
-
-// if(error){
-// 	return (
-// 	  <div className="pokedex-screen">
-// 	  <img
-// 		  src={ErrorPokemon}
-// 		  alt="Hubo un error buscando tu pokemon"
-// 		  className="pokedex-no-screen"
-// 	  />
-// 	  </div>
-// 		)
-// 	 }
