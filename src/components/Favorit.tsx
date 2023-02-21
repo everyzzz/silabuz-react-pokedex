@@ -34,12 +34,12 @@ const Favorites = () => {
 
   // Si ya pasamos la validación del error...
   return (
-    <div>
+    <div className="favorite-content">
       <h1 className="h1-fav">Mis favoritos</h1>
       <nav>
-        <ul className="ul-fav">
+        <ul className="favorite-btn">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Regresar</Link>
           </li>
         </ul>
       </nav>
@@ -50,7 +50,7 @@ const Favorites = () => {
               return (
                 <li key={item.id} className="styleList">
                   <img
-                    className="pokemon-img"
+                    className="pokemon-img-fav"
                     src={item.data.sprites.front_default}
                     alt={item.name}
                   />
