@@ -327,7 +327,7 @@ ul {
 
 .pokemon-img {
 	width: 100%;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	align-self: center;
 	grid-area: img;
 

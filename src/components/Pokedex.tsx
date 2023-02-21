@@ -18,8 +18,6 @@ const Pokedex = () => {
 
 	useEffect(() => {
 
-
-
 		fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonID}`)
 			.then(res => res.json())
 			.then(data => {
@@ -92,6 +90,7 @@ const Pokedex = () => {
 					<div className="light is-red" />
 					<div className="light is-yellow" />
 					<div className="light is-green" />
+					
 				</div>
 				<div className="pokedex-screen-container">
 					<PokedexScreen pokemon={pokemon} loading={loading} error={error} />

@@ -39,6 +39,7 @@ const PokedexScreen = ({
         /> : // Todo cool, entonces devuelve un lindo pokemon
         <div className="pokemon-info">
           <h2 className="pokemon-name">{pokemon.name}</h2>
+          <audio src={`https://pokemoncries.com/cries/${pokemon.id}.mp3`} autoPlay></audio>
           <img
             className="pokemon-img"
             src={pokemon.sprites.front_default}
