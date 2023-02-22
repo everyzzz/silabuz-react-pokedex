@@ -47,4 +47,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 # Deployed in 
-[https://silabuz-react-pokedex-ts.netlify.app/](https://silabuz-react-pokedex-ts.netlify.app/)
+[Pokedex React Netlify](https://pokedex-react-silabuz.netlify.app/)
